@@ -1,0 +1,59 @@
+.hero {
+  display: flex;
+  align-items: center;
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(149, 26, 231);
+  background: linear-gradient(
+    140deg,
+    rgba(149, 26, 231, 1) 0%,
+    rgba(226, 23, 23, 1) 50%,
+    rgba(25, 92, 232, 1) 100%
+  );
+  .heroLeft {
+    flex: 1;
+    padding: 3rem 5rem 6rem;
+    line-height: 2.5;
+
+    h2 {
+      text-transform: uppercase;
+    }
+
+    h1 {
+      text-transform: capitalize;
+    }
+
+    .heroActions {
+      display: flex;
+      align-items: center;
+
+      button {
+        background-color: rgb(47, 47, 243);
+        color: white;
+        border: none;
+        padding: 0.4rem 0.8rem;
+        border-radius: 1rem;
+        font-weight: 600;
+      }
+
+      span {
+        font-weight: 700;
+        margin-left: 1rem;
+      }
+    }
+  }
+
+  .heroRight {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .heroIcon {
+      font-size: 30rem;
+      color: white;
+    }
+  }
+}
