@@ -1,0 +1,36 @@
+.heroLinks {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  ul {
+    display: flex;
+    align-items: center;
+    padding: 1.5rem 0;
+
+    li:first-child {
+      font-weight: 700;
+      text-transform: capitalize;
+      color: black;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+
+    li {
+      margin-left: 1rem;
+      text-transform: capitalize;
+      color: blue;
+      &:hover {
+        text-decoration: underline;
+        cursor: pointer;
+      }
+    }
+  }
+
+  span {
+    border-bottom: 1.5px solid whitesmoke;
+    width: 95%;
+  }
+}
