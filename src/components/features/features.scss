@@ -5,30 +5,113 @@
     'video video pdf';
   gap: 2rem;
   background-color: white;
+
+  padding: 1.5rem;
 }
 
 .feature1 {
+  flex: 1;
   grid-area: photoshop;
-  padding: 1.5rem;
-  background-image: url('../../../public/assets//photoshop.jpg');
+  padding: 1rem;
+  background-image: url('../../../public/assets/photoshop.jpg');
+  // background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+  .feature1-info {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    color: white;
+  }
 }
 
 .feature2 {
+  flex: 1;
   grid-area: cloud;
-  padding: 1.5rem;
+  padding: 1rem;
+
+  background-image: url('../../../public/assets/creative.jpg');
+  // background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+  .feature2-info {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    color: white;
+  }
 }
 
 .feature3 {
+  flex: 2;
   grid-area: video;
-  padding: 1.5rem;
+  padding: 1rem;
+
+  background-image: url('../../../public/assets/premiere.jpg');
+  // background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+  .feature3-info {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    color: white;
+  }
 }
 
 .feature4 {
   grid-area: pdf;
-  padding: 1.5rem;
+  padding: 1rem;
+
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(251, 175, 158, 1) 0%,
+    rgba(249, 51, 36, 1) 100%
+  );
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+  .feature4-info {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    color: white;
+  }
 }
 
 .feature5 {
   grid-area: explore;
-  padding: 1.5rem;
+  padding: 1rem;
+
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(151, 151, 252, 1) 0%,
+    rgba(151, 151, 252, 1) 0%
+  );
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+  .feature1-info {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    color: white;
+  }
 }
