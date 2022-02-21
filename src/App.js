@@ -5,6 +5,7 @@ import Header from './components/header/Header';
 import './App.scss';
 import Hero from './components/hero/Hero';
 import HeroLinks from './components/herolinks/HeroLinks';
+import Features from './components/features/Features';
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Header />
       <Hero />
       <HeroLinks />
+      <Features />
     </Fragment>
   );
 };

@@ -1,0 +1,34 @@
+.features {
+  display: grid;
+  grid-template-areas:
+    'photoshop cloud explore'
+    'video video pdf';
+  gap: 2rem;
+  background-color: white;
+}
+
+.feature1 {
+  grid-area: photoshop;
+  padding: 1.5rem;
+  background-image: url('../../../public/assets//photoshop.jpg');
+}
+
+.feature2 {
+  grid-area: cloud;
+  padding: 1.5rem;
+}
+
+.feature3 {
+  grid-area: video;
+  padding: 1.5rem;
+}
+
+.feature4 {
+  grid-area: pdf;
+  padding: 1.5rem;
+}
+
+.feature5 {
+  grid-area: explore;
+  padding: 1.5rem;
+}
