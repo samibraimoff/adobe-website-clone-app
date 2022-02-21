@@ -6,6 +6,7 @@ import './App.scss';
 import Hero from './components/hero/Hero';
 import HeroLinks from './components/herolinks/HeroLinks';
 import Features from './components/features/Features';
+import Plans from './components/plans/Plans';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Hero />
       <HeroLinks />
       <Features />
+      <Plans />
     </Fragment>
   );
 };

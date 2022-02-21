@@ -31,25 +31,27 @@ const Features = () => {
         </div>
       </div>
 
-      <div className='feature4'>
-        <h2>Explore our creative apps</h2>
-        <ul>
-          <li>Creative cloud all apps free trial</li>
-          <li>See plans and pricing</li>
-        </ul>
-        <h2>See what you can do</h2>
-        <ul>
-          <li>Photography</li>
-          <li>Graphic design</li>
-          <li>Video</li>
-          <li>illustration</li>
-          <li>UI and UX</li>
-          <li>3D and AR</li>
-          <li>Social media</li>
-        </ul>
+      <div className='feature5'>
+        <div className='feature5-info'>
+          <h2>Explore our creative apps</h2>
+          <ul>
+            <li>Creative cloud all apps free trial</li>
+            <li>See plans and pricing</li>
+          </ul>
+          <h2>See what you can do</h2>
+          <ul>
+            <li>Photography</li>
+            <li>Graphic design</li>
+            <li>Video</li>
+            <li>illustration</li>
+            <li>UI and UX</li>
+            <li>3D and AR</li>
+            <li>Social media</li>
+          </ul>
+        </div>
       </div>
 
-      <div className='feature5'>
+      <div className='feature4'>
         <div className='feature4-info'>
           <h2>Get it done with acrobat.</h2>
           <h3>Edit, share and e-sign all of your PDFs - all in one place.</h3>
